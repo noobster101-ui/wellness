@@ -11,7 +11,7 @@ const Footer: React.FC = () => (
     <div className={`${styles.flexCenter} md:flex-row flex-col mb-8 w-full max-w-[1280px] border-t-[1px] border-t-[#3F3E45] pt-6`}>
       <div className="flex-1 flex flex-col justify-start mr-10">
         <Link href="/">
-          <Image src={logo} alt="Vidya Naik Wellness" width={200} height={60} className="object-contain" />
+          <Image src={logo} alt="Vidya Naik Wellness" width={150} height={60} className="object-contain" />
         </Link>
         <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
           Empowering women to transform from the inside out. Break free from limiting beliefs and unlock your true potential.

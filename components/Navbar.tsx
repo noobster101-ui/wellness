@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
     <nav className="w-full flex py-6 justify-between items-center navbar">
       {/* Logo */}
       <Link href="/" className="flex items-center">
-        <Image src={logo} alt="Vidya Naik Wellness" width={150} height={40} className="object-contain" />
+        <Image src={logo} alt="Vidya Naik Wellness" width={100} height={40} className="object-contain" />
       </Link>
 
       {/* Desktop Navigation */}

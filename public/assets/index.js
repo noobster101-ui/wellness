@@ -1,4 +1,3 @@
-import coinbase from "./coinbase.png";
 import baner from "./baner.avif";
 import logo from "./logo.png";
 import quotes from "./quotes.svg";
@@ -22,7 +21,6 @@ import health from "./health.avif";
 import procrastinate from "./why-do-we-procrastinate.jpg";
 
 export {
-  coinbase,
   baner,
   logo,
   quotes,
