@@ -13,6 +13,7 @@ import {
   wellness,
   procrastinate,
 } from "@/public/assets";
+import { link } from "fs";
 
 export const navLinks = [
   {
@@ -28,14 +29,12 @@ export const navLinks = [
   {
     id: "mission",
     title: "Mission",
-    path: "/",
-    // path: "/mission",
+    path: "/mission",
   },
   {
     id: "coach",
     title: "Meet Our Coach",
-    path: "/",
-    // path: "/coach",
+    path: "/coach",
   },
   {
     id: "programs",
@@ -46,8 +45,7 @@ export const navLinks = [
   {
     id: "blog",
     title: "Blog",
-    path: "/",
-    // path: "/blog",
+    path: "/blog",
   },
   {
     id: "contact",
@@ -459,13 +457,11 @@ export const footerLinks = [
       },
       {
         name: "Our Mission",
-        link: "/",
-        // link: "/mission",
+        link: "/mission",
       },
       {
         name: "Meet the Coach",
-        link: "/",
-        // link: "/coach",
+        link: "/coach",
       },
     ],
   },
@@ -497,13 +493,11 @@ export const footerLinks = [
     links: [
       {
         name: "Blog",
-        link: "/",
-        // link: "/blog",
+        link: "/blog",
       },
       {
         name: "Success Stories",
-        link: "/",
-        // link: "/reviews",
+        link: "/reviews",
       },
       {
         name: "FAQ",
@@ -517,18 +511,15 @@ export const footerLinks = [
     links: [
       {
         name: "Privacy Policy",
-        link: "/",
-        // link: "/privacy-policy",
+        link: "/privacy-policy",
       },
       {
         name: "Terms of Service",
-        link: "/",
-        // link: "/terms-of-service",
+        link: "/terms-of-service",
       },
       {
         name: "Refund Policy",
-        link: "/",
-        // link: "/refund-policy",
+        link: "/refund-policy",
       },
     ],
   },
